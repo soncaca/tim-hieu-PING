@@ -8,7 +8,11 @@ IP không hề có cơ chế nào để xác nhận dữ liệu đã được ch
 IP là một phương thức truyền dữ liệu không tin cậy trên mạng.ICMP không khắc phục được sự không tin cậy của IP, ICMP chỉ đơn giản là phát đi các thông điệp để thông báo về sự cố, báo cho sender biết việc gửi data đi đã có vấn đề.
 
 
-Thông điệp ICMP đựơc đóng gói giống như các dữ liệu khác khi truyền đi bằng IP, vì vậy nó cũng có thể gặp sự cố, nếu một thông điệp báo sự cố mà gặp sự cố thì nó sẽ gây phát sinh thêm những thông điệp báo sự cố mới và hiển nhiên nó sẽ gây ra tình trạng nghẽn mạng. Chính vì vậy mà sẽ không có một error report cho chính nó nữa và dẫn đến khả năng là thông điệp báo lỗi sẽ không bao giờ đến được máy nguồn.
+Thông điệp ICMP đựơc đóng gói giống như các dữ liệu khác khi truyền đi bằng IP, vì vậy nó cũng có thể gặp sự cố, nếu một thông điệp báo sự cố mà gặp sự cố thì nó sẽ gây phát sinh thêm những thông điệp báo sự cố mới và hiển nhiên nó sẽ gây ra tình trạng nghẽn mạng. Chính vì vậy mà sẽ không có một error report cho chính nó nữa và dẫn đến khả năng là thông điệp ICMP sẽ không bao giờ thông báo được sự cố đến  máy nguồn.
+
+
+
+
 
 
 
