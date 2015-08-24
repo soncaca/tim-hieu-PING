@@ -45,10 +45,5 @@ Giao thức ICMP có thể được sử dụng để kiểm xem có đến đư
 
 
 
-(ICMP is a necessary component of any TCP/IP implementation. It does not exist to provide information to the
-higher-layer protocols (like TCP and UDP) so that they may be more reliable. Rather, ICMP provides network
-diagnostic capabilities and feedback to those responsible for network administration and operation. See RFC
-792,if you are really interested)
-
 
 
